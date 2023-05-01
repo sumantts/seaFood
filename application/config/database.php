@@ -76,16 +76,11 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-
-    'username' => 'hnmdjxmy_user',
-    'password' => 'e#SNrnjD+}9[',
-	'database' => 'hnmdjxmy_sfme_sts',
-
-
-	/*'username' => 'root',
+	//'username' => 'hnmdjxmy_user',
+    //'password' => 'e#SNrnjD+}9[',
+    'username' => 'root',
     'password' => '',
-	'database' => 'sfme_sts',*/
- 	
+	'database' => 'hnmdjxmy_sfme_sts', 	
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
