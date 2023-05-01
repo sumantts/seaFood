@@ -19,7 +19,6 @@ class Login extends My_Controller {
     public function admin_login() {
         $this->load->helper('form');
         $this->load->library('form_validation');
-
         //if already logged-in
         if($this->user_type != null) {
             redirect(base_url('admin/dashboard')); //redirect to dashboard
